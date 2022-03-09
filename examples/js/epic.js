@@ -2,6 +2,7 @@ const request = require("request");
 const WebSocket = require('websocket');
 const Crypto = require('crypto-js');
 
+// You can get those value from https://rocketleague-api.com/api/v1/info !
 const RLKey = "c338bd36fb8c42b1a431d30add939fc7";
 const RLUserAgent = 'RL Win/211123.48895.355454 gzip';
 const RLLanguage = 'INT';
